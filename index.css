@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+}
+
+.card {
+    background-color: #d1e1ee;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px 2px rgb(42, 48, 40);
+}
+.num{
+    color: black;
+    font-size: 3em;
+}
+.suit-top{
+    font-size: 3em;
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+
+}
+.suit-bottom{
+    font-size: 3em;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    transform: rotate(180deg);
+    
+}
+.red {
+    color: red;
+}
